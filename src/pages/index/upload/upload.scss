@@ -1,0 +1,63 @@
+$A1: #000000;
+$A2: #333e45;
+$A3: #9a9da0;
+$A4: #eaeaea;
+$A5: #2a3a42;
+$A6: #ffffff;
+
+.upload {
+  position: relative;
+  width: 340px;
+  height: 242px;
+
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 340px;
+    height: 242px;
+  }
+
+  .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 340px;
+    height: 242px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+
+  .content {
+    position: relative;
+    width: 340px;
+    height: 242px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    z-index: 9;
+
+    .take-icon {
+      width: 120px;
+      height: 120px;
+    }
+
+    .tips {
+      margin-top: 28px;
+      font-size: 24px;
+      color: $A6;
+      z-index: 10;
+    }
+
+    .auth-icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 120px;
+      height: 120px;
+      z-index: 10;
+    }
+  }
+}
