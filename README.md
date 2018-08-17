@@ -3,4 +3,4 @@
 
 using Taro for upload image
 
-[项目功能](./description.gif)
+![详情](./description.gif)
