@@ -1,0 +1,23 @@
+.identification {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+
+  .title {
+    color: #333e45;
+    font-size: 24px;
+    text-align: center;
+    margin: 36px auto;
+  }
+
+  .upload-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px 34px 20px;
+  }
+
+  .spacing {
+    margin: 80px auto;
+  }
+}

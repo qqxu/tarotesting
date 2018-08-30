@@ -1,5 +1,5 @@
 import Taro, { Component } from '@tarojs/taro'
-import Index from './pages/index'
+import Index from './pages/identification/identification'
 
 import './app.scss'
 
@@ -7,7 +7,7 @@ class App extends Component {
 
   config = {
     pages: [
-      'pages/index/index',
+      'pages/identification/identification',
       'pages/entry/entry'
     ],
     window: {

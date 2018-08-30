@@ -1,0 +1,60 @@
+.info {
+  height: 200px;
+  background-color: #fff;
+
+  .info-box {
+    position: relative;
+    margin: 0 30px;
+    height: 199px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .name-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .btn {
+        color: #ff6737;
+        font-size: 24px;
+      }
+    }
+
+    .icon {
+      position: absolute;
+      top: 16px;
+      right: 0;
+      width: 100px;
+      height: 100px;
+    }
+
+    .value {
+      color: #333e45;
+      font-size: 28px;
+    }
+
+    .space {
+      margin: 20px 0;
+    }
+
+    .tips {
+      font-size: 24px;
+      color: #9a9da0;
+    }
+  }
+
+  .center-tips {
+    margin: 0 30px;
+    height: 199px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9a9da0;
+    font-size: 28px;
+  }
+
+  .bottom-line {
+    border-bottom: 1px solid #eaeaea;
+  }
+}
